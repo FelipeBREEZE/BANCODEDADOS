@@ -1,0 +1,24 @@
+CREATE PROCEDURE PR_FelipeBREEZE_01
+as
+select from titles INNER JOIN publishers
+where
+
+
+
+
+
+
+
+
+
+ALTER PROCEDURE PR_FelipeBREEZE_02
+as
+select title, type, pub_name, price from titles INNER JOIN publishers 
+on
+titles.pub_id = publishers.pub_id
+order by titles.pub_id
+
+
+PR_FelipeBREEZE_02
+
+select * from publishers
